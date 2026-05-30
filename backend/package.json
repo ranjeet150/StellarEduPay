@@ -6,8 +6,8 @@
     "node": ">=20.0.0"
   },
   "scripts": {
-    "start": "node src/app.js",
-    "dev": "nodemon src/app.js",
+    "start": "node init && node src/app.js",
+    "dev": "node init && nodemon src/app.js",
     "seed": "node ../scripts/seed-test-data.js",
     "create-wallet": "node ../scripts/create-school-wallet.js",
     "test": "jest --testPathPattern=tests/"
