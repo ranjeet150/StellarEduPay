@@ -2,8 +2,6 @@
 node_modules/
 
 # Environment files — never commit secrets
-.env
-.env.local
 .env.*.local
 
 # Logs
@@ -28,7 +26,6 @@ coverage/
 Thumbs.db
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -41,3 +38,4 @@ backups/
 test_results.txt
 test_results*.txt
 test_output*.txt
+config.bat
